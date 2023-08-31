@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+    
+}
+
+.event {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Table Styles */
+table {
+	width: 80%;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+	border: 2px solid #080808;
+	text-align: left;
+}
+
+th {
+	background-color: #f7f7f7;
+	font-weight: bold;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+h1, h2 {
+	margin-top: 0;
+}
+
+/* Header Styles */
+
+h2{
+    text-align: center;
+}
+
+/* Form Styles */
+form {
+	width: 50%;
+	margin: 0 auto;
+	background-color: #c4ffc0e7;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+    color: #fa0707;
+}
+
+input[type="text"], input[type="date"], input[type="time"], input[type="submit"],input[type="tel"] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+	background-color: #007bff;
+	color: #fff;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #46ff6b;
+}
+main {
+    flex: 1;
+  }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
